@@ -1,0 +1,293 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #293f50;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.flex-header {
+    flex-basis: 30%;
+}
+
+.intro {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 25px;
+    margin: 10px 0 90px 0;
+}
+
+.intro p{
+    color: white;
+}
+
+.logo {
+    border-top: 5px solid #648880;
+    font-size: 50px;
+}
+
+.date {
+    text-align: right;
+    margin-right: 5px;
+}
+
+.date a {
+    padding: 10px;
+}
+
+.reg {
+    border: 1px solid #648880;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #648880;
+}
+
+h2, h3 {
+    color: #648880;
+}
+
+div h4, p {
+    color: #648880;
+}
+
+div h4 {
+    color: #293f50;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.index-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    background-color: white;
+}
+
+.index-sec {
+    flex-basis: 20%;
+    cursor: pointer;
+    padding: 10rem 0 10rem 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5rem 0;
+}
+
+footer a {
+    text-align: right;
+    flex-basis: 30%;
+    padding: 5px;
+}
+
+img {
+    height: 130px;
+}
+
+.speaker {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: left;
+    padding-left: 15px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.speaker-flex {
+    flex-basis: 30%;
+}
+
+.speaker p {
+    font-weight: 200;
+}
+
+.speaker-info {
+    border: 1px solid #648880;
+    border-radius: 5px;
+    padding: 40px;
+    text-align: center;
+}
+
+.speaker-bottom {
+    margin: 125px;
+}
+
+.speaker-image {
+    border-radius: 50%;
+    margin: -60px 30px;
+}
+
+.speaker-p {
+    font-size: 20px;
+    color: black;
+}
+
+.venue {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+.venue a {
+    color: black;
+}
+
+.venue section {
+    flex-basis: 40%;
+    padding: 20px 10px;
+}
+
+iframe {
+    padding: 10px 50px;
+}
+
+.register {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "a b"
+    "c c";
+    background-color: white;
+    padding: 10px;
+}
+
+.register fieldset {
+    width: 50%;
+    color: #648880;
+    display: block;
+    margin: 50px 0 20px 0;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    padding-top: 1rem;
+}
+
+input {
+    background-color: #648880;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #648880;
+}
+
+table {
+    margin-bottom: 44px;
+    width: 100%;
+}
+
+table:last-child {
+    margin-bottom: 0;
+}
+
+.row {
+    background-color: white;
+    min-width: 960px;
+    padding: 66px 0 44px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+th,
+td {
+    padding-bottom: 22px;
+    vertical-align: top;
+}
+
+th {
+    padding-right: 45px;
+    text-align: right;
+    width: 20px;
+}
+
+td {
+    width: 40px;
+}
+
+thead {
+    line-height: 44px;
+}
+
+thead th {
+    color: #648880;
+}
+
+tbody th {
+    color: #a9b2b9;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 22px;
+    text-transform: uppercase;
+}
+  
+tbody td {
+    border-top: 1px solid #dfe2e5;
+    padding-top: 21px;
+}
+  tbody td:first-of-type {
+    padding-right: 15px;
+  }
+  tbody td:last-of-type {
+    padding-left: 15px;
+  }
+  tbody td:only-of-type {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  table a {
+    color: #888;
+  }
+  table h4 {
+    margin-bottom: 0;
+  }
+  
+  .schedule-offset {
+    color: #a9b2b9;
+  }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #fff;    
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    background: #fff;
+    color: #648880;
+}
