@@ -83,9 +83,9 @@ div h4 {
 }
 
 .index-sec {
-    flex-basis: 20%;
     cursor: pointer;
-    padding: 10rem 0 10rem 0;
+    padding: 5rem 0 5rem 0;
+    margin: auto;
 }
 
 footer {
@@ -290,4 +290,19 @@ tbody td {
     padding: 10px 30px;
     background: #fff;
     color: #648880;
+}
+
+@media screen and (max-width:800px){
+    .date {
+        display: none;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    .register {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
